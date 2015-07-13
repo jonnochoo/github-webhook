@@ -1,0 +1,26 @@
+{
+  "name": "github-webhook",
+  "version": "1.0.0",
+  "description": "a web app for receiving github-webhook requests that trigger commands",
+  "main": "app.js",
+  "scripts": {
+    "test": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonnochoo/github-webhook.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Jonathon Choo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonnochoo/github-webhook/issues"
+  },
+  "homepage": "https://github.com/jonnochoo/github-webhook",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1"
+  }
+}
