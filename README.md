@@ -16,8 +16,10 @@ Update the **services.json** file
   { "apiKey": "secret-key-goes-here", "path": "/var/www/example", "cmd": "echo hello" }
 ]
 
-**apikey** - the secret key
-**path** - the path from which the commands are executed
-**cmd** - the commands to execute
+```
+
+- **apikey** - the secret key
+- **path** - the path from which the commands are executed
+- **cmd** - the commands to execute
 
   
