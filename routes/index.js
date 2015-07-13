@@ -1,5 +1,5 @@
 var child_process = require('child_process');
-var config = require('../config');
+var services = require('../service.json');
 var express = require('express');
 var router = express.Router();
 
@@ -9,7 +9,7 @@ router.get('/', function(req, res) {
 
 router.post('/', function(req, res, next) {
   var apiKey = req.query.apiKey;
-  var service = config.services.filter(function(item) {
+  var service = services.filter(function(item) {
     return item.apiKey === apiKey; 
   });
 
