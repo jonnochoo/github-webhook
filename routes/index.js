@@ -1,5 +1,5 @@
 var child_process = require('child_process');
-var services = require('../service.json');
+var services = require('../services.json');
 var express = require('express');
 var router = express.Router();
 
